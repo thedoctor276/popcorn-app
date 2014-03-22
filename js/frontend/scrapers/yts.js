@@ -1,8 +1,7 @@
 
-
 var trakt = require('./js/frontend/providers/trakttv');
 
-var url = 'http://yts.re/api/list.json?sort=seeds&limit=50';
+var url = 'http://yts.mi/api/list.json?sort=seeds&limit=50';
 
 // Hack to keep to cancel the request in case of new request
 var currentRequest = null;
